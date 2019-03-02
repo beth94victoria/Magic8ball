@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(44, 17, 56);
+    padding: 50px; 
+     
+}
+
+#circle{
+    grid-template-columns: auto auto auto auto auto auto; 
+    height: 500px;
+    width: 500px;
+    padding: 20px, 20px, 20px, 20px; 
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: grid; 
+    grid-column: 3 / 6;    
+}
+
+div{
+    padding: 70px;
+}
